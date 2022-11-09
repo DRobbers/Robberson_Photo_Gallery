@@ -1,0 +1,292 @@
+html {
+    box-sizing: border-box;
+    background-color: #000000;
+    }
+    *:before, *::after {
+        box-sizing: inherit;
+    }
+    html, body, section, article, header, footer, nav, h1, h2, h3, p, address, img, ul, li, figure, figcaption {
+        margin: auto;
+        padding: 0;
+        border: 0;
+    
+    }
+    
+    
+    figcaption {
+        width: 410px;
+    }
+    nav h2 {
+    visibility: hidden;
+    height: 1px;    
+    }
+    header {
+        height: 100px;
+        background-color: #000000;
+        border-radius: 5px;
+      
+    
+      
+     }
+     header h1 {
+        color: #007d7b;
+        padding-left: 20px;
+        padding-top: 25px;
+        float: left;
+        width: 410px;
+        
+    }
+    nav ul {
+        padding-right: 40px;
+     
+    }
+    nav li {
+        float:right;
+        text-transform: uppercase;
+        padding: 45px 40px; 
+     
+        list-style: none;
+        margin-bottom: 25px;
+      
+    }
+    
+    
+    a:link {
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px; 
+     
+       
+    }
+    a:focus {
+        outline: solid 3px #007d7b;
+        
+    }
+    a:hover { 
+        color: #007d7b; 
+        background-color: #ffffff;
+        
+    } 
+    [title] {
+        color: #ffffff  ;
+    }
+    
+    
+    
+    
+    #intro  img{
+        float: left;
+        padding-top: 10px;
+       
+    } 
+     
+    #intro {
+        text-align: right;
+        padding-right: 20px;
+    }
+    #gallery {
+        /* float: left; */
+        clear: both;
+        overflow: hidden;
+        width: 1310px;
+        /* outline: 1px solid black; */
+        height:auto;
+    }
+    #gallery h3, p {
+        padding-left: 20px;
+    }
+    
+    body {
+        width: 1310px;
+        /* height: 4400px; */
+        /* outline: 2px solid black; */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    /* nav li {
+        float: right;
+        text-transform: uppercase;
+        margin: 25px;
+        padding: 25px;
+        border-radius: 10px;
+        
+    } */
+    
+    
+    
+    [href="#top"] {
+        position:fixed;
+        bottom:0px;
+        right:0px;
+        border-radius:10px 0 0px 0px;
+        padding: 20px;
+        background-color:#007d7b;
+        color: #ffffff;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    
+      }
+    
+    /* [href="#top"] {
+        border: #007d7b;
+        resize:both;
+        padding: 20px;
+        background-color:#007d7b;
+        color: #ffffff;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        border-radius:10px 0px 0px;
+       
+    
+    } */
+    main {
+        width: 1310px;
+        /* height: 1800px; */
+        background-color: #ffffff;
+        padding-left: 4px;
+        
+     
+      
+    }
+    img {
+        padding: 4px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    figure {
+        /* float: left; */
+        display:inline-block;
+        padding-left: 2px;
+    }
+    .gallery img {
+        width: 410px;
+    
+       /* This section is for my Captions to place in a specific locatoin relative to the image */
+     
+    }
+    .Caption    {
+        position: relative;
+       
+      
+    }
+    [title="chile"] {
+        color: #000000;
+        top: -280px;
+        left: 16px;
+    }
+    [title="guatemala"] {
+        color: #ffffff;
+        top: -280px;
+        left: 16px;
+    }
+    [title="hawaii"] {
+        color: #ffffff;
+        top: -40px;
+        left: 260px;
+    }
+    [title="iran"] {
+        color:#000000;
+        top: -630px;
+        left: 16px;
+    }
+    [title="ireland"] {
+        color: #ffffff;
+        top: -40px;
+        left: 260px;
+    }
+    [title="italy"] {
+        color: #ffffff;
+        top: -40px;
+        left: 16px;
+    }
+    [title="moab_desert"] {
+        color: #ffffff;
+        top: -40px;
+        left: 210px;
+    }
+    [title="rocky_mountains"] {
+        color:#000000;
+        top: -280px;
+        left: 16px;
+    }
+    [title="switzerland"] {
+        color:#000000;
+        top: -40px;
+        left: 16px;
+    }
+    [title="uk"] {
+        color: #ffffff;
+        top: -40px;
+        left: 300px;
+    }
+    [title="usa"] {
+        color: #ffffff;
+        top: -280px;
+        left: 16px;
+    }
+    [title="wyoming"] {
+        color: #ffffff;
+        top: -280px;
+        left: 16px;
+    }
+    /* #contact, footer  {
+        clear: both;
+        background-color: #000000;
+        color: #ffffff;
+    } */
+    
+    
+    button {
+        padding-top: 10px;
+        padding-left: 130px;
+        padding-right: 130px;
+        padding-bottom: 10px;
+        margin: 10px 0;
+        font-size: 16px;
+        border-radius: 20px;
+        border-radius: 10px;
+        background-color: #007d7b;
+        color: #ffffff;
+    
+    
+    }
+    footer, #contact {
+        font-size: 16px;
+        background-color: #000000;
+        color: #ffffff;
+        position: static;
+        clear: both;
+        text-align: center;
+        margin: 20px 0;
+        border-radius: 5px;
+    
+    }
+    form .row {
+      
+        margin: 1rem auto;
+      }
+    #contact h3 {
+        padding-top: 20px;
+        font-size: 40px;
+    }
+    #contact p {
+        font-size: 20px;
+    }
+    [placeholder] {
+        width: 700px;
+        padding: 10px 15px;
+       
+     
+    }
+    label {
+        width: 500px;
+    padding-right: 630px;
+    
+    }
+    ::placeholder {
+        color: #007d7b;
+    }
+    
