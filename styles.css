@@ -67,6 +67,10 @@ html {
         background-color: #ffffff;
         
     } 
+    nav a:hover {
+        background-color: #007d7b;
+        color: #ffffff;
+    }
     [title] {
         color: #ffffff  ;
     }
@@ -103,18 +107,7 @@ html {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
     }
-    
-    /* nav li {
-        float: right;
-        text-transform: uppercase;
-        margin: 25px;
-        padding: 25px;
-        border-radius: 10px;
-        
-    } */
-    
-    
-    
+
     [href="#top"] {
         position:fixed;
         bottom:0px;
@@ -128,26 +121,13 @@ html {
     
       }
     
-    /* [href="#top"] {
-        border: #007d7b;
-        resize:both;
-        padding: 20px;
-        background-color:#007d7b;
-        color: #ffffff;
-        position: fixed;
-        bottom: 0px;
-        right: 0px;
-        border-radius:10px 0px 0px;
-       
-    
-    } */
+
     main {
         width: 1310px;
         /* height: 1800px; */
         background-color: #ffffff;
         padding-left: 4px;
-        
-     
+    
       
     }
     img {
